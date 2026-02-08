@@ -1,19 +1,56 @@
+# ======================
 # Python
+# ======================
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.pyd
 
+# ======================
 # IDE
+# ======================
 .idea/
 .vscode/
 
-# Envs
+# ======================
+# Virtual Environments
+# ======================
 .venv/
 venv/
 env/
 *.env
 
+# ======================
 # OS
+# ======================
 .DS_Store
 Thumbs.db
+
+# ======================
+# Datasets
+# ======================
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
+
+# ======================
+# Deep Learning Artifacts
+# ======================
+*.pth
+*.pt
+*.ckpt
+*.h5
+checkpoints/
+runs/
+logs/
+outputs/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
